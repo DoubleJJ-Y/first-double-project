@@ -1,0 +1,8 @@
+					
+Module	force/sense	SITE1	SITE2	SITE1	SITE2
+mdma	Pin	 4016.56;	 1016.2;	 4016.56;	 1016.2;
+mdma	Pin	 4016.57;	 1016.1;	 4016.57;	 1016.1;
+mmxh_dcl	Pin	 4012.1;	 1012.1;	 4012.1;	 1012.1;
+mfhp_hf	Force	 4010.3;	 1006.3;	 4010.3;	 1006.3;
+mmxh_pmu	Force	 4012.8;	 1012.8;	 4012.8;	 1012.8;
+mmxh_pmu	Force	 4012.6;	 1012.6;	 4012.6;	 1012.6;

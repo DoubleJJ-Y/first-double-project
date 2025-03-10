@@ -1,0 +1,319 @@
+Version 1.0;											
+											
+SocketDef											
+{											
+     DUTType KTB8316											
+      {											
+          PinDescription KTB8316.pin;											
+											
+											
+          ######################################################################											
+          ############################    SITE  1     #############################											
+          ######################################################################											
+          DUT  1											
+          {											
+               Resource AT.Digital.dpin											
+               {											
+"               MODE_mdma              4016.56;
+               EN_mdma              4016.57;
+               EN_mmxh_dcl              4012.1;
+"											
+               }											
+               Resource AT.Analog.mmxh_pmu											
+               {											
+"               MODE_mmxh_pmu              4012.8;
+               EN_mmxh_pmu              4012.6;
+               LX_F_mmxh_pmu              4012.7;
+               GND_F_mmxh_pmu              4012.4;
+               VOUT_mmxh_pmu              4012.3;
+"											
+               }											
+               Resource AT.Analog.gvi64_pmu											
+               {											
+"               VIN_F_gvi64_pmu              4012.5;
+"											
+               }											
+               Resource AT.Analog.mfhp_pmu											 
+               {											
+"               LX_F_mfhp_pmu              4010.3;
+"											
+               }											
+               Resource AT.Utility.cw											
+               {											
+"               K1              2020.115;
+               K2              2020.122;
+               K3              2020.123;
+               K4              2020.116;
+               K5              2020.124;
+               K6              4020.5;
+               K7              4020.49;
+               K8              4020.57;
+               K9              3020.75;
+               K10              3020.68;
+               K11              2020.114;
+"											
+               }											
+               Resource AT.RelayControl.rc5v											
+               {											
+                 rc5v_pin          1020.99999;											
+               }											
+											
+											
+          ######################################################################											
+          ############################    SITE  2     #############################											
+          ######################################################################											 
+          DUT  2											
+          {											
+               Resource AT.Digital.dpin											
+               {											
+"               MODE_mdma              4016.56;
+               EN_mdma              4016.57;
+               EN_mmxh_dcl              4012.1;
+"											
+               }											
+               Resource AT.Analog.mmxh_pmu											
+               {											
+"               MODE_mmxh_pmu              4012.8;
+               EN_mmxh_pmu              4012.6;
+               LX_F_mmxh_pmu              4012.7;
+               GND_F_mmxh_pmu              4012.4;
+               VOUT_mmxh_pmu              4012.3;
+"											
+               }											
+               Resource AT.Analog.gvi64_pmu											
+               {											
+"               VIN_F_gvi64_pmu              4012.5;
+"											
+               }											
+               Resource AT.Analog.mfhp_pmu											
+               {											
+"               LX_F_mfhp_pmu              4010.3;
+"											
+               }											
+               Resource AT.Utility.cw											
+               {											
+"               K1              2020.115;
+               K2              2020.122;
+               K3              2020.123;
+               K4              2020.116;
+               K5              2020.124;
+               K6              4020.5;
+               K7              4020.49;
+               K8              4020.57;
+               K9              3020.75;
+               K10              3020.68;
+               K11              2020.114;
+"											
+               }											
+               Resource AT.RelayControl.rc5v											
+               {											
+                 rc5v_pin          1020.99999;											
+               }											
+											
+											
+          ######################################################################											
+          ############################    SITE  3     #############################											
+          ######################################################################											
+          DUT  3											
+          {											
+               Resource AT.Digital.dpin											
+               {											
+"               MODE_mdma              4016.56;
+               EN_mdma              4016.57;
+               EN_mmxh_dcl              4012.1;
+"											
+               }											
+               Resource AT.Analog.mmxh_pmu											
+               {											
+"               MODE_mmxh_pmu              4012.8;
+               EN_mmxh_pmu              4012.6;
+               LX_F_mmxh_pmu              4012.7;
+               GND_F_mmxh_pmu              4012.4;
+               VOUT_mmxh_pmu              4012.3;
+"											
+               }											
+               Resource AT.Analog.gvi64_pmu											
+               {											
+"               VIN_F_gvi64_pmu              4012.5;
+"											
+               }											
+               Resource AT.Analog.mfhp_pmu											
+               {											
+"               LX_F_mfhp_pmu              4010.3;
+"											
+               }											
+               Resource AT.Utility.cw											
+               {											
+"               K1              2020.115;
+               K2              2020.122;
+               K3              2020.123;
+               K4              2020.116;
+               K5              2020.124;
+               K6              4020.5;
+               K7              4020.49;
+               K8              4020.57;
+               K9              3020.75;
+               K10              3020.68;
+               K11              2020.114;
+"											
+               }											
+               Resource AT.RelayControl.rc5v											
+               {											
+                 rc5v_pin          1020.99999;											
+               }											
+											
+											
+          ######################################################################											
+          ############################    SITE  4     #############################											
+          ######################################################################											
+          DUT  4											
+          {											
+               Resource AT.Digital.dpin											
+               {											
+"               MODE_mdma              4016.56;
+               EN_mdma              4016.57;
+               EN_mmxh_dcl              4012.1;
+"											
+               }											
+               Resource AT.Analog.mmxh_pmu											
+               {											
+"               MODE_mmxh_pmu              4012.8;
+               EN_mmxh_pmu              4012.6;
+               LX_F_mmxh_pmu              4012.7;
+               GND_F_mmxh_pmu              4012.4;
+               VOUT_mmxh_pmu              4012.3;
+"											
+               }											
+               Resource AT.Analog.gvi64_pmu											
+               {											
+"               VIN_F_gvi64_pmu              4012.5;
+"											
+               }											
+               Resource AT.Analog.mfhp_pmu											
+               {											
+"               LX_F_mfhp_pmu              4010.3;
+"											
+               }											
+               Resource AT.Utility.cw											
+               {											
+"               K1              2020.115;
+               K2              2020.122;
+               K3              2020.123;
+               K4              2020.116;
+               K5              2020.124;
+               K6              4020.5;
+               K7              4020.49;
+               K8              4020.57;
+               K9              3020.75;
+               K10              3020.68;
+               K11              2020.114;
+"											
+               }											
+               Resource AT.RelayControl.rc5v											
+               {											
+                 rc5v_pin          1020.99999;											
+               }											
+											
+											
+          ######################################################################											
+          ############################    SITE  5     #############################											
+          ######################################################################											
+          DUT  5											
+          {											
+               Resource AT.Digital.dpin											
+               {											
+"               MODE_mdma              4016.56;
+               EN_mdma              4016.57;
+               EN_mmxh_dcl              4012.1;
+"											
+               }											
+               Resource AT.Analog.mmxh_pmu											
+               {											
+"               MODE_mmxh_pmu              4012.8;
+               EN_mmxh_pmu              4012.6;
+               LX_F_mmxh_pmu              4012.7;
+               GND_F_mmxh_pmu              4012.4;
+               VOUT_mmxh_pmu              4012.3;
+"											
+               }											
+               Resource AT.Analog.gvi64_pmu											
+               {											
+"               VIN_F_gvi64_pmu              4012.5;
+"											
+               }											
+               Resource AT.Analog.mfhp_pmu											
+               {											
+"               LX_F_mfhp_pmu              4010.3;
+"											
+               }											
+               Resource AT.Utility.cw											
+               {											
+"               K1              2020.115;
+               K2              2020.122;
+               K3              2020.123;
+               K4              2020.116;
+               K5              2020.124;
+               K6              4020.5;
+               K7              4020.49;
+               K8              4020.57;
+               K9              3020.75;
+               K10              3020.68;
+               K11              2020.114;
+"											
+               }											
+               Resource AT.RelayControl.rc5v											
+               {											
+                 rc5v_pin          1020.99999;											
+               }											
+											
+											
+          ######################################################################											
+          ############################    SITE  6     #############################											
+          ######################################################################											
+          DUT  6											
+          {											
+               Resource AT.Digital.dpin											
+               {											
+"               MODE_mdma              4016.56;
+               EN_mdma              4016.57;
+               EN_mmxh_dcl              4012.1;
+"											
+               }											
+               Resource AT.Analog.mmxh_pmu											
+               {											
+"               MODE_mmxh_pmu              4012.8;
+               EN_mmxh_pmu              4012.6;
+               LX_F_mmxh_pmu              4012.7;
+               GND_F_mmxh_pmu              4012.4;
+               VOUT_mmxh_pmu              4012.3;
+"											
+               }											
+               Resource AT.Analog.gvi64_pmu											
+               {											
+"               VIN_F_gvi64_pmu              4012.5;
+"											
+               }											
+               Resource AT.Analog.mfhp_pmu											
+               {											
+"               LX_F_mfhp_pmu              4010.3;
+"											
+               }											
+               Resource AT.Utility.cw											
+               {											
+"               K1              2020.115;
+               K2              2020.122;
+               K3              2020.123;
+               K4              2020.116;
+               K5              2020.124;
+               K6              4020.5;
+               K7              4020.49;
+               K8              4020.57;
+               K9              3020.75;
+               K10              3020.68;
+               K11              2020.114;
+"											
+               }											
+               Resource AT.RelayControl.rc5v											
+               {											
+                 rc5v_pin          1020.99999;											
+               }											

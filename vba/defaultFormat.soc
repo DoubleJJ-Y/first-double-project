@@ -1,0 +1,77 @@
+Version 1.0;											
+											
+SocketDef											
+{											
+      DUTType #DeviceNmae											
+      {											
+          PinDescription #DeviceNmae.pin;											
+											
+          ######################################################################											
+          ############################    SITE #Num     #############################											
+          ######################################################################											
+          DUT #Num											
+          {											
+               SiteController 1;											
+               Resource AT.Digital.dpin											
+               {											
+											
+               }											
+               Resource AT.Analog.mmxh_pmu											
+               {											
+											
+               }											
+               Resource AT.Mixed.mmxh_tmu											
+               {											
+											
+               }											
+               Resource AT.Analog.mmxh_dgt											 
+               {											
+											
+               }											
+               Resource AT.Analog.mmxh_awg											
+               {											
+											
+               }											
+               Resource AT.Analog.gvi64_pmu											
+               {											
+											
+               }											
+               Resource AT.Mixed.gvi64_tmu											
+               {											
+											
+               }											
+               Resource AT.Analog.gvi64_dgt											 
+               {											
+											
+               }											
+               Resource AT.Analog.gvi64_awg											
+               {											
+											
+               }											
+               Resource AT.Analog.mfhp_pmu											
+               {											
+											
+               }											
+               Resource AT.Analog.mfhp_awg											
+               {											
+											
+               }											
+               Resource AT.Analog.mfhp_dgt											
+               {											
+											
+               }											
+               Resource AT.Analog.mmxh_diffvm											
+               {											
+											
+               }											
+               Resource AT.Utility.cw											
+               {											
+											
+               }											
+               Resource AT.RelayControl.rc5v											
+               {											
+                 rc5v_pin		1020.99999;									
+               }											
+          }											
+      }											
+}											

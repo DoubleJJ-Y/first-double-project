@@ -1,0 +1,1273 @@
+Version 1.0;
+
+SocketDef
+{
+     DUTType KTB8316
+      {
+          PinDescription KTB8316.pin;
+
+
+          ######################################################################
+          ############################    SITE  1     #############################
+          ######################################################################
+          DUT  1
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             4016.56;
+               EN_mdma             4016.57;
+               EN_mmxh_dcl              4012.1;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu              4012.8;
+               EN_mmxh_pmu              4012.6;
+               LX_F_mmxh_pmu              4012.7;
+               VIN_F_mmxh_pmu              4012.5;
+               GND_F_mmxh_pmu              4012.4;
+               VOUT_mmxh_pmu              4012.3;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu              4012.8;
+               EN_mmxh_tmu              4012.6;
+               LX_F_mmxh_tmu              4012.7;
+               VIN_F_mmxh_tmu              4012.5;
+               GND_F_mmxh_tmu              4012.4;
+               VOUT_mmxh_tmu              4012.3;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt              4012.8;
+               EN_mmxh_dgt              4012.6;
+               LX_F_mmxh_dgt              4012.7;
+               VIN_F_mmxh_dgt              4012.5;
+               GND_F_mmxh_dgt              4012.4;
+               VOUT_mmxh_dgt              4012.3;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg              4012.8;
+               EN_mmxh_awg              4012.6;
+               LX_F_mmxh_awg              4012.7;
+               VIN_F_mmxh_awg              4012.5;
+               GND_F_mmxh_awg              4012.4;
+               VOUT_mmxh_awg              4012.3;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              4010.3;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              4010.3;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              4010.3;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              4010.3;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  2     #############################
+          ######################################################################
+          DUT  2
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma              1016.2;
+               EN_mdma              1016.1;
+               EN_mmxh_dcl              1012.1;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu              1012.8;
+               EN_mmxh_pmu              1012.6;
+               LX_F_mmxh_pmu              1012.7;
+               VIN_F_mmxh_pmu              1012.5;
+               GND_F_mmxh_pmu              1012.4;
+               VOUT_mmxh_pmu              1012.3;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu              1012.8;
+               EN_mmxh_tmu              1012.6;
+               LX_F_mmxh_tmu              1012.7;
+               VIN_F_mmxh_tmu              1012.5;
+               GND_F_mmxh_tmu              1012.4;
+               VOUT_mmxh_tmu              1012.3;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt              1012.8;
+               EN_mmxh_dgt              1012.6;
+               LX_F_mmxh_dgt              1012.7;
+               VIN_F_mmxh_dgt              1012.5;
+               GND_F_mmxh_dgt              1012.4;
+               VOUT_mmxh_dgt              1012.3;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg              1012.8;
+               EN_mmxh_awg              1012.6;
+               LX_F_mmxh_awg              1012.7;
+               VIN_F_mmxh_awg              1012.5;
+               GND_F_mmxh_awg              1012.4;
+               VOUT_mmxh_awg              1012.3;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              1006.3;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              1006.3;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              1006.3;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              1006.3;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  3     #############################
+          ######################################################################
+          DUT  3
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             4016.35;
+               EN_mdma             4016.34;
+               EN_mmxh_dcl              4013.9;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             4013.16;
+               EN_mmxh_pmu             4013.14;
+               LX_F_mmxh_pmu             4013.15;
+               VIN_F_mmxh_pmu             4013.13;
+               GND_F_mmxh_pmu             4013.12;
+               VOUT_mmxh_pmu             4013.11;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             4013.16;
+               EN_mmxh_tmu             4013.14;
+               LX_F_mmxh_tmu             4013.15;
+               VIN_F_mmxh_tmu             4013.13;
+               GND_F_mmxh_tmu             4013.12;
+               VOUT_mmxh_tmu             4013.11;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             4013.16;
+               EN_mmxh_dgt             4013.14;
+               LX_F_mmxh_dgt             4013.15;
+               VIN_F_mmxh_dgt             4013.13;
+               GND_F_mmxh_dgt             4013.12;
+               VOUT_mmxh_dgt             4013.11;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             4013.16;
+               EN_mmxh_awg             4013.14;
+               LX_F_mmxh_awg             4013.15;
+               VIN_F_mmxh_awg             4013.13;
+               GND_F_mmxh_awg             4013.12;
+               VOUT_mmxh_awg             4013.11;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              3010.4;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              3010.4;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              3010.4;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              3010.4;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  4     #############################
+          ######################################################################
+          DUT  4
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             1016.23;
+               EN_mdma             1016.24;
+               EN_mmxh_dcl              1013.9;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             1013.16;
+               EN_mmxh_pmu             1013.14;
+               LX_F_mmxh_pmu             1013.15;
+               VIN_F_mmxh_pmu             1013.13;
+               GND_F_mmxh_pmu             1013.12;
+               VOUT_mmxh_pmu             1013.11;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             1013.16;
+               EN_mmxh_tmu             1013.14;
+               LX_F_mmxh_tmu             1013.15;
+               VIN_F_mmxh_tmu             1013.13;
+               GND_F_mmxh_tmu             1013.12;
+               VOUT_mmxh_tmu             1013.11;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             1013.16;
+               EN_mmxh_dgt             1013.14;
+               LX_F_mmxh_dgt             1013.15;
+               VIN_F_mmxh_dgt             1013.13;
+               GND_F_mmxh_dgt             1013.12;
+               VOUT_mmxh_dgt             1013.11;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             1013.16;
+               EN_mmxh_awg             1013.14;
+               LX_F_mmxh_awg             1013.15;
+               VIN_F_mmxh_awg             1013.13;
+               GND_F_mmxh_awg             1013.12;
+               VOUT_mmxh_awg             1013.11;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              1010.1;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              1010.1;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              1010.1;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              1010.1;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  5     #############################
+          ######################################################################
+          DUT  5
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             4016.24;
+               EN_mdma             4016.23;
+               EN_mmxh_dcl              4014.1;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu              4014.8;
+               EN_mmxh_pmu              4014.6;
+               LX_F_mmxh_pmu              4014.7;
+               VIN_F_mmxh_pmu              4014.5;
+               GND_F_mmxh_pmu              4014.4;
+               VOUT_mmxh_pmu              4014.3;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu              4014.8;
+               EN_mmxh_tmu              4014.6;
+               LX_F_mmxh_tmu              4014.7;
+               VIN_F_mmxh_tmu              4014.5;
+               GND_F_mmxh_tmu              4014.4;
+               VOUT_mmxh_tmu              4014.3;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt              4014.8;
+               EN_mmxh_dgt              4014.6;
+               LX_F_mmxh_dgt              4014.7;
+               VIN_F_mmxh_dgt              4014.5;
+               GND_F_mmxh_dgt              4014.4;
+               VOUT_mmxh_dgt              4014.3;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg              4014.8;
+               EN_mmxh_awg              4014.6;
+               LX_F_mmxh_awg              4014.7;
+               VIN_F_mmxh_awg              4014.5;
+               GND_F_mmxh_awg              4014.4;
+               VOUT_mmxh_awg              4014.3;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              4010.1;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              4010.1;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              4010.1;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              4010.1;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  6     #############################
+          ######################################################################
+          DUT  6
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             1016.34;
+               EN_mdma             1016.35;
+               EN_mmxh_dcl              1014.1;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu              1014.8;
+               EN_mmxh_pmu              1014.6;
+               LX_F_mmxh_pmu              1014.7;
+               VIN_F_mmxh_pmu              1014.5;
+               GND_F_mmxh_pmu              1014.4;
+               VOUT_mmxh_pmu              1014.3;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu              1014.8;
+               EN_mmxh_tmu              1014.6;
+               LX_F_mmxh_tmu              1014.7;
+               VIN_F_mmxh_tmu              1014.5;
+               GND_F_mmxh_tmu              1014.4;
+               VOUT_mmxh_tmu              1014.3;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt              1014.8;
+               EN_mmxh_dgt              1014.6;
+               LX_F_mmxh_dgt              1014.7;
+               VIN_F_mmxh_dgt              1014.5;
+               GND_F_mmxh_dgt              1014.4;
+               VOUT_mmxh_dgt              1014.3;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg              1014.8;
+               EN_mmxh_awg              1014.6;
+               LX_F_mmxh_awg              1014.7;
+               VIN_F_mmxh_awg              1014.5;
+               GND_F_mmxh_awg              1014.4;
+               VOUT_mmxh_awg              1014.3;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              1010.2;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              1010.2;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              1010.2;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              1010.2;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  7     #############################
+          ######################################################################
+          DUT  7
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma              4016.2;
+               EN_mdma              4016.1;
+               EN_mmxh_dcl              4015.9;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             4015.16;
+               EN_mmxh_pmu             4015.14;
+               LX_F_mmxh_pmu             4015.15;
+               VIN_F_mmxh_pmu             4015.13;
+               GND_F_mmxh_pmu             4015.12;
+               VOUT_mmxh_pmu             4015.11;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             4015.16;
+               EN_mmxh_tmu             4015.14;
+               LX_F_mmxh_tmu             4015.15;
+               VIN_F_mmxh_tmu             4015.13;
+               GND_F_mmxh_tmu             4015.12;
+               VOUT_mmxh_tmu             4015.11;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             4015.16;
+               EN_mmxh_dgt             4015.14;
+               LX_F_mmxh_dgt             4015.15;
+               VIN_F_mmxh_dgt             4015.13;
+               GND_F_mmxh_dgt             4015.12;
+               VOUT_mmxh_dgt             4015.11;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             4015.16;
+               EN_mmxh_awg             4015.14;
+               LX_F_mmxh_awg             4015.15;
+               VIN_F_mmxh_awg             4015.13;
+               GND_F_mmxh_awg             4015.12;
+               VOUT_mmxh_awg             4015.11;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              4010.2;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              4010.2;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              4010.2;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              4010.2;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  8     #############################
+          ######################################################################
+          DUT  8
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             1016.56;
+               EN_mdma             1016.57;
+               EN_mmxh_dcl              1015.9;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             1015.16;
+               EN_mmxh_pmu             1015.14;
+               LX_F_mmxh_pmu             1015.15;
+               VIN_F_mmxh_pmu             1015.13;
+               GND_F_mmxh_pmu             1015.12;
+               VOUT_mmxh_pmu             1015.11;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             1015.16;
+               EN_mmxh_tmu             1015.14;
+               LX_F_mmxh_tmu             1015.15;
+               VIN_F_mmxh_tmu             1015.13;
+               GND_F_mmxh_tmu             1015.12;
+               VOUT_mmxh_tmu             1015.11;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             1015.16;
+               EN_mmxh_dgt             1015.14;
+               LX_F_mmxh_dgt             1015.15;
+               VIN_F_mmxh_dgt             1015.13;
+               GND_F_mmxh_dgt             1015.12;
+               VOUT_mmxh_dgt             1015.11;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             1015.16;
+               EN_mmxh_awg             1015.14;
+               LX_F_mmxh_awg             1015.15;
+               VIN_F_mmxh_awg             1015.13;
+               GND_F_mmxh_awg             1015.12;
+               VOUT_mmxh_awg             1015.11;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              1006.1;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              1006.1;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              1006.1;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              1006.1;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  9     #############################
+          ######################################################################
+          DUT  9
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             3016.120;
+               EN_mdma             3016.121;
+               EN_mmxh_dcl             3015.25;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             3015.32;
+               EN_mmxh_pmu             3015.30;
+               LX_F_mmxh_pmu             3015.31;
+               VIN_F_mmxh_pmu             3015.29;
+               GND_F_mmxh_pmu             3015.28;
+               VOUT_mmxh_pmu             3015.27;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             3015.32;
+               EN_mmxh_tmu             3015.30;
+               LX_F_mmxh_tmu             3015.31;
+               VIN_F_mmxh_tmu             3015.29;
+               GND_F_mmxh_tmu             3015.28;
+               VOUT_mmxh_tmu             3015.27;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             3015.32;
+               EN_mmxh_dgt             3015.30;
+               LX_F_mmxh_dgt             3015.31;
+               VIN_F_mmxh_dgt             3015.29;
+               GND_F_mmxh_dgt             3015.28;
+               VOUT_mmxh_dgt             3015.27;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             3015.32;
+               EN_mmxh_awg             3015.30;
+               LX_F_mmxh_awg             3015.31;
+               VIN_F_mmxh_awg             3015.29;
+               GND_F_mmxh_awg             3015.28;
+               VOUT_mmxh_awg             3015.27;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              3010.5;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              3010.5;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              3010.5;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              3010.5;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  10     #############################
+          ######################################################################
+          DUT  10
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             2016.66;
+               EN_mdma             2016.65;
+               EN_mmxh_dcl             2015.25;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             2015.32;
+               EN_mmxh_pmu             2015.30;
+               LX_F_mmxh_pmu             2015.31;
+               VIN_F_mmxh_pmu             2015.29;
+               GND_F_mmxh_pmu             2015.28;
+               VOUT_mmxh_pmu             2015.27;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             2015.32;
+               EN_mmxh_tmu             2015.30;
+               LX_F_mmxh_tmu             2015.31;
+               VIN_F_mmxh_tmu             2015.29;
+               GND_F_mmxh_tmu             2015.28;
+               VOUT_mmxh_tmu             2015.27;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             2015.32;
+               EN_mmxh_dgt             2015.30;
+               LX_F_mmxh_dgt             2015.31;
+               VIN_F_mmxh_dgt             2015.29;
+               GND_F_mmxh_dgt             2015.28;
+               VOUT_mmxh_dgt             2015.27;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             2015.32;
+               EN_mmxh_awg             2015.30;
+               LX_F_mmxh_awg             2015.31;
+               VIN_F_mmxh_awg             2015.29;
+               GND_F_mmxh_awg             2015.28;
+               VOUT_mmxh_awg             2015.27;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              2010.5;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              2010.5;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              2010.5;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              2010.5;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  11     #############################
+          ######################################################################
+          DUT  11
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             3016.98;
+               EN_mdma             3016.99;
+               EN_mmxh_dcl             3014.17;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             3014.24;
+               EN_mmxh_pmu             3014.22;
+               LX_F_mmxh_pmu             3014.23;
+               VIN_F_mmxh_pmu             3014.21;
+               GND_F_mmxh_pmu             3014.20;
+               VOUT_mmxh_pmu             3014.19;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             3014.24;
+               EN_mmxh_tmu             3014.22;
+               LX_F_mmxh_tmu             3014.23;
+               VIN_F_mmxh_tmu             3014.21;
+               GND_F_mmxh_tmu             3014.20;
+               VOUT_mmxh_tmu             3014.19;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             3014.24;
+               EN_mmxh_dgt             3014.22;
+               LX_F_mmxh_dgt             3014.23;
+               VIN_F_mmxh_dgt             3014.21;
+               GND_F_mmxh_dgt             3014.20;
+               VOUT_mmxh_dgt             3014.19;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             3014.24;
+               EN_mmxh_awg             3014.22;
+               LX_F_mmxh_awg             3014.23;
+               VIN_F_mmxh_awg             3014.21;
+               GND_F_mmxh_awg             3014.20;
+               VOUT_mmxh_awg             3014.19;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              3010.6;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              3010.6;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              3010.6;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              3010.6;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  12     #############################
+          ######################################################################
+          DUT  12
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             2016.88;
+               EN_mdma             2016.87;
+               EN_mmxh_dcl             2014.17;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             2014.24;
+               EN_mmxh_pmu             2014.22;
+               LX_F_mmxh_pmu             2014.23;
+               VIN_F_mmxh_pmu             2014.21;
+               GND_F_mmxh_pmu             2014.20;
+               VOUT_mmxh_pmu             2014.19;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             2014.24;
+               EN_mmxh_tmu             2014.22;
+               LX_F_mmxh_tmu             2014.23;
+               VIN_F_mmxh_tmu             2014.21;
+               GND_F_mmxh_tmu             2014.20;
+               VOUT_mmxh_tmu             2014.19;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             2014.24;
+               EN_mmxh_dgt             2014.22;
+               LX_F_mmxh_dgt             2014.23;
+               VIN_F_mmxh_dgt             2014.21;
+               GND_F_mmxh_dgt             2014.20;
+               VOUT_mmxh_dgt             2014.19;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             2014.24;
+               EN_mmxh_awg             2014.22;
+               LX_F_mmxh_awg             2014.23;
+               VIN_F_mmxh_awg             2014.21;
+               GND_F_mmxh_awg             2014.20;
+               VOUT_mmxh_awg             2014.19;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              2010.6;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              2010.6;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              2010.6;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              2010.6;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  13     #############################
+          ######################################################################
+          DUT  13
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             3016.87;
+               EN_mdma             3016.88;
+               EN_mmxh_dcl             3013.25;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             3013.32;
+               EN_mmxh_pmu             3013.30;
+               LX_F_mmxh_pmu             3013.31;
+               VIN_F_mmxh_pmu             3013.29;
+               GND_F_mmxh_pmu             3013.28;
+               VOUT_mmxh_pmu             3013.27;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             3013.32;
+               EN_mmxh_tmu             3013.30;
+               LX_F_mmxh_tmu             3013.31;
+               VIN_F_mmxh_tmu             3013.29;
+               GND_F_mmxh_tmu             3013.28;
+               VOUT_mmxh_tmu             3013.27;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             3013.32;
+               EN_mmxh_dgt             3013.30;
+               LX_F_mmxh_dgt             3013.31;
+               VIN_F_mmxh_dgt             3013.29;
+               GND_F_mmxh_dgt             3013.28;
+               VOUT_mmxh_dgt             3013.27;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             3013.32;
+               EN_mmxh_awg             3013.30;
+               LX_F_mmxh_awg             3013.31;
+               VIN_F_mmxh_awg             3013.29;
+               GND_F_mmxh_awg             3013.28;
+               VOUT_mmxh_awg             3013.27;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              1005.6;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              1005.6;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              1005.6;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              1005.6;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  14     #############################
+          ######################################################################
+          DUT  14
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             2016.99;
+               EN_mdma             2016.98;
+               EN_mmxh_dcl             2013.25;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             2013.32;
+               EN_mmxh_pmu             2013.30;
+               LX_F_mmxh_pmu             2013.31;
+               VIN_F_mmxh_pmu             2013.29;
+               GND_F_mmxh_pmu             2013.28;
+               VOUT_mmxh_pmu             2013.27;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             2013.32;
+               EN_mmxh_tmu             2013.30;
+               LX_F_mmxh_tmu             2013.31;
+               VIN_F_mmxh_tmu             2013.29;
+               GND_F_mmxh_tmu             2013.28;
+               VOUT_mmxh_tmu             2013.27;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             2013.32;
+               EN_mmxh_dgt             2013.30;
+               LX_F_mmxh_dgt             2013.31;
+               VIN_F_mmxh_dgt             2013.29;
+               GND_F_mmxh_dgt             2013.28;
+               VOUT_mmxh_dgt             2013.27;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             2013.32;
+               EN_mmxh_awg             2013.30;
+               LX_F_mmxh_awg             2013.31;
+               VIN_F_mmxh_awg             2013.29;
+               GND_F_mmxh_awg             2013.28;
+               VOUT_mmxh_awg             2013.27;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              1005.5;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              1005.5;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              1005.5;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              1005.5;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  15     #############################
+          ######################################################################
+          DUT  15
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             3016.66;
+               EN_mdma             3016.65;
+               EN_mmxh_dcl             3012.17;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             3012.24;
+               EN_mmxh_pmu             3012.22;
+               LX_F_mmxh_pmu             3012.23;
+               VIN_F_mmxh_pmu             3012.21;
+               GND_F_mmxh_pmu             3012.20;
+               VOUT_mmxh_pmu             3012.19;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             3012.24;
+               EN_mmxh_tmu             3012.22;
+               LX_F_mmxh_tmu             3012.23;
+               VIN_F_mmxh_tmu             3012.21;
+               GND_F_mmxh_tmu             3012.20;
+               VOUT_mmxh_tmu             3012.19;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             3012.24;
+               EN_mmxh_dgt             3012.22;
+               LX_F_mmxh_dgt             3012.23;
+               VIN_F_mmxh_dgt             3012.21;
+               GND_F_mmxh_dgt             3012.20;
+               VOUT_mmxh_dgt             3012.19;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             3012.24;
+               EN_mmxh_awg             3012.22;
+               LX_F_mmxh_awg             3012.23;
+               VIN_F_mmxh_awg             3012.21;
+               GND_F_mmxh_awg             3012.20;
+               VOUT_mmxh_awg             3012.19;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              2010.4;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              2010.4;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              2010.4;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              2010.4;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+
+
+          ######################################################################
+          ############################    SITE  16     #############################
+          ######################################################################
+          DUT  16
+          {
+               Resource AT.Digital.dpin
+               {
+               MODE_mdma             2016.120;
+               EN_mdma             2016.121;
+               EN_mmxh_dcl             2012.17;
+
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+               MODE_mmxh_pmu             2012.24;
+               EN_mmxh_pmu             2012.22;
+               LX_F_mmxh_pmu             2012.23;
+               VIN_F_mmxh_pmu             2012.21;
+               GND_F_mmxh_pmu             2012.20;
+               VOUT_mmxh_pmu             2012.19;
+
+               }
+               Resource AT.Analog.mmxh_tmu
+               {
+               MODE_mmxh_tmu             2012.24;
+               EN_mmxh_tmu             2012.22;
+               LX_F_mmxh_tmu             2012.23;
+               VIN_F_mmxh_tmu             2012.21;
+               GND_F_mmxh_tmu             2012.20;
+               VOUT_mmxh_tmu             2012.19;
+
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+               MODE_mmxh_dgt             2012.24;
+               EN_mmxh_dgt             2012.22;
+               LX_F_mmxh_dgt             2012.23;
+               VIN_F_mmxh_dgt             2012.21;
+               GND_F_mmxh_dgt             2012.20;
+               VOUT_mmxh_dgt             2012.19;
+
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+               MODE_mmxh_awg             2012.24;
+               EN_mmxh_awg             2012.22;
+               LX_F_mmxh_awg             2012.23;
+               VIN_F_mmxh_awg             2012.21;
+               GND_F_mmxh_awg             2012.20;
+               VOUT_mmxh_awg             2012.19;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_pmu              1010.3;
+
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+               LX_F_mfhp_tmu              1010.3;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_dgt              1010.3;
+
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+               LX_F_mfhp_awg              1010.3;
+
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin          1020.99999;
+               }
+          }
+      }
+}

@@ -1,0 +1,1318 @@
+Version 1.0;
+
+SocketDef
+{
+      DUTType MAP6714_4PARA
+      {
+          PinDescription MAP6714_FT.pin;
+
+          ######################################################################
+          ############################    SITE 1     #########################
+          ######################################################################
+          DUT 1
+          {
+               SiteController 1;
+               Resource AT.Digital.dpin
+               {
+                 VINB1_mmxh_dcl		1013.11;
+                 VINB2_mmxh_dcl		1012.2;
+                 VINB3_mmxh_dcl		1013.15;
+                 LXB1_mmxh_dcl		1012.3;
+                 VDD1_mmxh_dcl		1015.13;
+                 LXB2_mmxh_dcl		1012.6;
+                 VDD2_mmxh_dcl		1014.7;
+                 LXB3_mmxh_dcl		1012.5;
+                 VDD3_mmxh_dcl		1014.1;
+                 VDD3E_mmxh_dcl		1014.5;
+                 VIN_mmxh_dcl		1013.14;
+                 SCL_mmxh_dcl		1015.14;
+                 SCL_mdm			1016.6;
+                 SDA_mdm			1016.5;
+                 EN1_mdm			1016.1;
+                 EN1_mmxh_dcl		1013.12;
+                 EN2_mdm			1016.2;
+                 EN2_mmxh_dcl		1015.16;
+                 VBIAS_mmxh_dcl		1014.3;
+                 VREF_mmxh_dcl		1014.8;
+                 TP1_mmxh_dcl		1015.12;
+                 TP2_mmxh_dcl		1015.11;
+                 LX_mmxh_dcl		1012.8;
+                 PAVDD2SNS_mmxh_dcl	1012.1;
+                 PAVDD2_mmxh_dcl	1012.7;
+                 AVDD_mmxh_dcl		1012.4;
+                 VGH_mmxh_dcl		1015.10;
+                 VGL_mmxh_dcl		1014.4;
+                 VINT_mmxh_dcl		1014.6;
+                 SW1_mmxh_dcl		1013.16;
+                 VCP1_mmxh_dcl		1013.9;
+                 SW2_mmxh_dcl		1013.13;
+                 VCP2_mmxh_dcl		1015.15;
+                 AINT_mmxh_dcl		1014.2;
+                 GPIO1_mdm			1016.4;
+                 GPIO2_mdm			1016.3;
+                 GND_mmxh_dcl		1013.10;
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+                 VINB1_mmxh_pmu		1013.11;
+                 VINB2_mmxh_pmu		1012.2;
+                 VINB3_mmxh_pmu		1013.15;
+                 LXB1_mmxh_pmu		1012.3;
+                 VDD1_mmxh_pmu		1015.13;
+                 LXB2_mmxh_pmu		1012.6;
+                 VDD2_mmxh_pmu		1014.7;
+                 LXB3_mmxh_pmu		1012.5;
+                 VDD3_mmxh_pmu		1014.1;
+                 VDD3E_mmxh_pmu		1014.5;
+                 VIN_mmxh_pmu		1013.14;
+                 SCL_mmxh_pmu		1015.14;
+                 EN1_mmxh_pmu		1013.12;
+                 EN2_mmxh_pmu		1015.16;
+                 VBIAS_mmxh_pmu		1014.3;
+                 VREF_mmxh_pmu		1014.8;
+                 TP1_mmxh_pmu		1015.12; #NC_ATP_DFT
+                 TP2_mmxh_pmu		1015.11; #NC_DTP_DFT
+                 LX_mmxh_pmu		1012.8;
+                 PAVDD2SNS_mmxh_pmu	1012.1;
+                 PAVDD2_mmxh_pmu	1012.7;
+                 AVDD_mmxh_pmu		1012.4;
+                 VGH_mmxh_pmu		1015.10;
+                 VGL_mmxh_pmu		1014.4;
+                 VINT_mmxh_pmu		1014.6;
+                 SW1_mmxh_pmu		1013.16;
+                 VCP1_mmxh_pmu		1013.9;
+                 SW2_mmxh_pmu		1013.13;
+                 VCP2_mmxh_pmu		1015.15;
+                 AINT_mmxh_pmu		1014.2;
+                 GND_mmxh_pmu		1013.10;
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+                 VINB1_mmxh_dgt		1013.11;
+                 VINB2_mmxh_dgt		1012.2;
+                 VINB3_mmxh_dgt		1013.15;
+                 LXB1_mmxh_dgt		1012.3;
+                 VDD1_mmxh_dgt		1015.13;
+                 LXB2_mmxh_dgt		1012.6;
+                 VDD2_mmxh_dgt		1014.7;
+                 LXB3_mmxh_dgt		1012.5;
+                 VDD3_mmxh_dgt		1014.1;
+                 VDD3E_mmxh_dgt		1014.5;
+                 VIN_mmxh_dgt		1013.14;
+                 SCL_mmxh_dgt		1015.14;
+                 EN1_mmxh_dgt		1013.12;
+                 EN2_mmxh_dgt		1015.16;
+                 VBIAS_mmxh_dgt		1014.3;
+                 VREF_mmxh_dgt		1014.8;
+                 TP1_mmxh_dgt		1015.12;
+                 TP2_mmxh_dgt		1015.11;
+                 LX_mmxh_dgt		1012.8;
+                 PAVDD2SNS_mmxh_dgt	1012.1;
+                 PAVDD2_mmxh_dgt	1012.7;
+                 AVDD_mmxh_dgt		1012.4;
+                 VGH_mmxh_dgt		1015.10;
+                 VGL_mmxh_dgt		1014.4;
+                 VINT_mmxh_dgt		1014.6;
+                 SW1_mmxh_dgt		1013.16;
+                 VCP1_mmxh_dgt		1013.9;
+                 SW2_mmxh_dgt		1013.13;
+                 VCP2_mmxh_dgt		1015.15;
+                 AINT_mmxh_dgt		1014.2;
+                 GND_mmxh_dgt		1013.10;
+               }
+               Resource AT.Mixed.mmxh_tmu
+               {
+                 VINB1_mmxh_tmu		1013.11;
+                 VINB2_mmxh_tmu		1012.2;
+                 VINB3_mmxh_tmu		1013.15;
+                 LXB1_mmxh_tmu		1012.3;
+                 VDD1_mmxh_tmu		1015.13;
+                 LXB2_mmxh_tmu		1012.6;
+                 VDD2_mmxh_tmu		1014.7;
+                 LXB3_mmxh_tmu		1012.5;
+                 VDD3_mmxh_tmu		1014.1;
+                 VDD3E_mmxh_tmu		1014.5;
+                 VIN_mmxh_tmu		1013.14;
+                 SCL_mmxh_tmu		1015.14;
+                 EN1_mmxh_tmu		1013.12;
+                 EN2_mmxh_tmu		1015.16;
+                 VBIAS_mmxh_tmu		1014.3;
+                 VREF_mmxh_tmu		1014.8;
+                 TP1_mmxh_tmu		1015.12;
+                 TP2_mmxh_tmu		1015.11;
+                 LX_mmxh_tmu		1012.8;
+                 PAVDD2SNS_mmxh_tmu	1012.1;
+                 PAVDD2_mmxh_tmu	1012.7;
+                 AVDD_mmxh_tmu		1012.4;
+                 VGH_mmxh_tmu		1015.10;
+                 VGL_mmxh_tmu		1014.4;
+                 VINT_mmxh_tmu		1014.6;
+                 SW1_mmxh_tmu		1013.16;
+                 VCP1_mmxh_tmu		1013.9;
+                 SW2_mmxh_tmu		1013.13;
+                 VCP2_mmxh_tmu		1015.15;
+                 AINT_mmxh_tmu		1014.2;
+                 GND_mmxh_tmu		1013.10;
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+                 VINB1_mmxh_awg		1013.11;
+                 VINB2_mmxh_awg		1012.2;
+                 VINB3_mmxh_awg		1013.15;
+                 LXB1_mmxh_awg		1012.3;
+                 VDD1_mmxh_awg		1015.13;
+                 LXB2_mmxh_awg		1012.6;
+                 VDD2_mmxh_awg		1014.7;
+                 LXB3_mmxh_awg		1012.5;
+                 VDD3_mmxh_awg		1014.1;
+                 VDD3E_mmxh_awg		1014.5;
+                 VIN_mmxh_awg		1013.14;
+                 SCL_mmxh_awg		1015.14;
+                 EN1_mmxh_awg		1013.12;
+                 EN2_mmxh_awg		1015.16;
+                 VBIAS_mmxh_awg		1014.3;
+                 VREF_mmxh_awg		1014.8;
+                 TP1_mmxh_awg		1015.12;
+                 TP2_mmxh_awg		1015.11;
+                 LX_mmxh_awg		1012.8;
+                 PAVDD2SNS_mmxh_awg	1012.1;
+                 PAVDD2_mmxh_awg	1012.7;
+                 AVDD_mmxh_awg		1012.4;
+                 VGH_mmxh_awg		1015.10;
+                 VGL_mmxh_awg		1014.4;
+                 VINT_mmxh_awg		1014.6;
+                 SW1_mmxh_awg		1013.16;
+                 VCP1_mmxh_awg		1013.9;
+                 SW2_mmxh_awg		1013.13;
+                 VCP2_mmxh_awg		1015.15;
+                 AINT_mmxh_awg		1014.2;
+                 GND_mmxh_awg		1013.10;
+               }
+               Resource AT.Analog.gvi64_pmu
+               {
+                 SDA_gvi64_pmu			5017.45;
+                 EXVPP_gvi64_pmu		5017.40;
+                 ELVSS_gvi64_pmu		5017.44;
+                 PAVDDR_gvi64_pmu		5018.49;
+                 PAVDDG_gvi64_pmu		5018.50;
+                 ELVDD_gvi64_pmu		5017.41;
+                 VGMA_H_gvi64_pmu		5018.60;
+                 VGMA_L_gvi64_pmu		5018.58;
+                 PAVDD2ANA_gvi64_pmu	5017.35;
+                 AVDDSNS_gvi64_pmu		5017.38;
+                 AVDDLPF_gvi64_pmu		5017.36;
+                 CP1_gvi64_pmu			5017.34;
+                 VINC_gvi64_pmu			5018.51;
+                 CP2_gvi64_pmu			5017.37;
+                 GPIO1_gvi64_pmu		5018.57;
+                 GPIO2_gvi64_pmu		5017.43;
+                 NCGD_gvi64_pmu	    	5018.59;
+                 AMPVDD_gvi64_pmu		5018.52;
+                 AMPVREF_gvi64_pmu		5017.33;
+               }
+               Resource AT.Analog.gvi64_dgt
+               {
+                 SDA_gvi64_dgt			5017.45;
+                 EXVPP_gvi64_dgt		5017.40;
+                 ELVSS_gvi64_dgt		5017.44;
+                 PAVDDR_gvi64_dgt		5018.49;
+                 PAVDDG_gvi64_dgt		5018.50;
+                 ELVDD_gvi64_dgt		5017.41;
+                 VGMA_H_gvi64_dgt		5018.60;
+                 VGMA_L_gvi64_dgt		5018.58;
+                 PAVDD2ANA_gvi64_dgt	5017.35;
+                 AVDDSNS_gvi64_dgt		5017.38;
+                 AVDDLPF_gvi64_dgt		5017.36;
+                 CP1_gvi64_dgt			5017.34;
+                 VINC_gvi64_dgt			5018.51;
+                 CP2_gvi64_dgt			5017.37;
+                 GPIO1_gvi64_dgt		5018.57;
+                 GPIO2_gvi64_dgt		5017.43;
+                 NCGD_gvi64_dgt		    5018.59;
+                 AMPVDD_gvi64_dgt		5018.52;
+                 AMPVREF_gvi64_dgt		5017.33;
+               }
+               Resource AT.Mixed.gvi64_tmu
+               {
+                 SDA_gvi64_tmu			5017.45;
+                 EXVPP_gvi64_tmu		5017.40;
+                 ELVSS_gvi64_tmu		5017.44;
+                 PAVDDR_gvi64_tmu		5018.49;
+                 PAVDDG_gvi64_tmu		5018.50;
+                 ELVDD_gvi64_tmu		5017.41;
+                 VGMA_H_gvi64_tmu		5018.60;
+                 VGMA_L_gvi64_tmu		5018.58;
+                 PAVDD2ANA_gvi64_tmu	5017.35;
+                 AVDDSNS_gvi64_tmu		5017.38;
+                 AVDDLPF_gvi64_tmu		5017.36;
+                 CP1_gvi64_tmu			5017.34;
+                 VINC_gvi64_tmu			5018.51;
+                 CP2_gvi64_tmu			5017.37;
+                 GPIO1_gvi64_tmu		5018.57;
+                 GPIO2_gvi64_tmu		5017.43;
+                 NCGD_gvi64_tmu		    5018.59;
+                 AMPVDD_gvi64_tmu		5018.52;
+                 AMPVREF_gvi64_tmu		5017.33;
+               }
+               Resource AT.Analog.gvi64_awg
+               {
+                 SDA_gvi64_awg			5017.45;
+                 EXVPP_gvi64_awg		5017.40;
+                 ELVSS_gvi64_awg		5017.44;
+                 PAVDDR_gvi64_awg		5018.49;
+                 PAVDDG_gvi64_awg		5018.50;
+                 ELVDD_gvi64_awg		5017.41;
+                 VGMA_H_gvi64_awg		5018.60;
+                 VGMA_L_gvi64_awg		5018.58;
+                 PAVDD2ANA_gvi64_awg	5017.35;
+                 AVDDSNS_gvi64_awg		5017.38;
+                 AVDDLPF_gvi64_awg		5017.36;
+                 CP1_gvi64_awg			5017.34;
+                 VINC_gvi64_awg			5018.51;
+                 CP2_gvi64_awg			5017.37;
+                 GPIO1_gvi64_awg		5018.57;
+                 GPIO2_gvi64_awg		5017.43;
+                 NCGD_gvi64_awg		    5018.59;
+                 AMPVDD_gvi64_awg		5018.52;
+                 AMPVREF_gvi64_awg		5017.33;
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+                 VINB_mfhp_pmu		1010.1;
+                 LXB_mfhp_pmu		1010.2;
+                 LX_mfhp_pmu		2010.5;
+                 PAVDD2_mfhp_pmu	2010.6;
+                 PAVDDN1_mfhp_pmu	1010.3;
+                 HVIN_mfhp_pmu		2010.4;
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+                 VINB_mfhp_dgt		1010.1;
+                 LXB_mfhp_dgt		1010.2;
+                 LX_mfhp_dgt		2010.5;
+                 PAVDD2_mfhp_dgt	2010.6;
+                 PAVDDN1_mfhp_dgt	1010.3;
+                 HVIN_mfhp_dgt		2010.4;
+               }
+               Resource AT.Analog.mmxh_diffvm
+               {
+                 D1_mmxh_dvm		1012.1000;
+               }
+               Resource AT.Utility.cw
+               {
+                 SP_SW1		1020.23;
+                 SP_SW2		1020.31;
+                 SW0		1020.20;
+                 SW2		2020.116;
+                 SW4		2020.123;
+                 SW6		2020.106;
+                 SW7		1020.28;
+                 SW9		1020.29;
+                 SW10		1020.21;
+                 SW12		1020.18;
+                 SW13		2020.107;
+                 SW15		2020.112;
+                 SW25		2020.128;
+                 SW27		1020.26;
+                 SW28		1020.22;
+                 SW30		1020.19;
+                 SW33		2020.117;
+                 SW35		1020.30;
+                 SW39		1020.27;
+                 SW45		1020.24;
+                 SW60		2020.124;
+                 SW61		2020.99;
+                 SW63		2020.125;
+                 SW70		2020.104;
+                 SW71		2020.120;
+                 SW72		2020.127;
+                 SW73		2020.126;
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin		1020.99999;
+               }
+          }
+          ######################################################################
+          ############################    SITE 2     #########################
+          ######################################################################
+          DUT 2
+          {
+               SiteController 1;
+               Resource AT.Digital.dpin
+               {
+                 VINB1_mmxh_dcl		2012.19;
+                 VINB2_mmxh_dcl		2013.26;
+                 VINB3_mmxh_dcl		2012.23;
+                 LXB1_mmxh_dcl		2013.27;
+                 VDD1_mmxh_dcl		2014.21;
+                 LXB2_mmxh_dcl		2013.30;
+                 VDD2_mmxh_dcl		2015.31;
+                 LXB3_mmxh_dcl		2013.29;
+                 VDD3_mmxh_dcl		2014.19;
+                 VDD3E_mmxh_dcl		2015.29;
+                 VIN_mmxh_dcl		2012.22;
+                 SCL_mmxh_dcl		2014.22;
+                 SCL_mdm		    2016.70;
+                 SDA_mdm		    2016.69;
+                 EN1_mdm		    2016.65;
+                 EN1_mmxh_dcl		2012.20;
+                 EN2_mdm		    2016.66;
+                 EN2_mmxh_dcl		2014.24;
+                 VBIAS_mmxh_dcl		2015.27;
+                 VREF_mmxh_dcl		2015.32;
+                 TP1_mmxh_dcl		2014.20;
+                 TP2_mmxh_dcl		2015.25;
+                 LX_mmxh_dcl		2013.32;
+                 PAVDD2SNS_mmxh_dcl		2012.17;
+                 PAVDD2_mmxh_dcl		2013.31;
+                 AVDD_mmxh_dcl		2013.28;
+                 VGH_mmxh_dcl		2014.18;
+                 VGL_mmxh_dcl		2015.28;
+                 VINT_mmxh_dcl		2015.30;
+                 SW1_mmxh_dcl		2012.24;
+                 VCP1_mmxh_dcl		2013.25;
+                 SW2_mmxh_dcl		2012.21;
+                 VCP2_mmxh_dcl		2014.23;
+                 AINT_mmxh_dcl		2015.26;
+                 GPIO1_mdm		    2016.68;
+                 GPIO2_mdm		    2016.67;
+                 GND_mmxh_dcl		2012.18;
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+                 VINB1_mmxh_pmu		2012.19;
+                 VINB2_mmxh_pmu		2013.26;
+                 VINB3_mmxh_pmu		2012.23;
+                 LXB1_mmxh_pmu		2013.27;
+                 VDD1_mmxh_pmu		2014.21;
+                 LXB2_mmxh_pmu		2013.30;
+                 VDD2_mmxh_pmu		2015.31;
+                 LXB3_mmxh_pmu		2013.29;
+                 VDD3_mmxh_pmu		2014.19;
+                 VDD3E_mmxh_pmu		2015.29;
+                 VIN_mmxh_pmu		2012.22;
+                 SCL_mmxh_pmu		2014.22;
+                 EN1_mmxh_pmu		2012.20;
+                 EN2_mmxh_pmu		2014.24;
+                 VBIAS_mmxh_pmu		2015.27;
+                 VREF_mmxh_pmu		2015.32;
+                 TP1_mmxh_pmu		2014.20;
+                 TP2_mmxh_pmu		2015.25;
+                 LX_mmxh_pmu		2013.32;
+                 PAVDD2SNS_mmxh_pmu		2012.17;
+                 PAVDD2_mmxh_pmu		2013.31;
+                 AVDD_mmxh_pmu		2013.28;
+                 VGH_mmxh_pmu		2014.18;
+                 VGL_mmxh_pmu		2015.28;
+                 VINT_mmxh_pmu		2015.30;
+                 SW1_mmxh_pmu		2012.24;
+                 VCP1_mmxh_pmu		2013.25;
+                 SW2_mmxh_pmu		2012.21;
+                 VCP2_mmxh_pmu		2014.23;
+                 AINT_mmxh_pmu		2015.26;
+                 GND_mmxh_pmu		2012.18;
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+                 VINB1_mmxh_dgt		2012.19;
+                 VINB2_mmxh_dgt		2013.26;
+                 VINB3_mmxh_dgt		2012.23;
+                 LXB1_mmxh_dgt		2013.27;
+                 VDD1_mmxh_dgt		2014.21;
+                 LXB2_mmxh_dgt		2013.30;
+                 VDD2_mmxh_dgt		2015.31;
+                 LXB3_mmxh_dgt		2013.29;
+                 VDD3_mmxh_dgt		2014.19;
+                 VDD3E_mmxh_dgt		2015.29;
+                 VIN_mmxh_dgt		2012.22;
+                 SCL_mmxh_dgt		2014.22;
+                 EN1_mmxh_dgt		2012.20;
+                 EN2_mmxh_dgt		2014.24;
+                 VBIAS_mmxh_dgt		2015.27;
+                 VREF_mmxh_dgt		2015.32;
+                 TP1_mmxh_dgt		2014.20;
+                 TP2_mmxh_dgt		2015.25;
+                 LX_mmxh_dgt		2013.32;
+                 PAVDD2SNS_mmxh_dgt		2012.17;
+                 PAVDD2_mmxh_dgt		2013.31;
+                 AVDD_mmxh_dgt		2013.28;
+                 VGH_mmxh_dgt		2014.18;
+                 VGL_mmxh_dgt		2015.28;
+                 VINT_mmxh_dgt		2015.30;
+                 SW1_mmxh_dgt		2012.24;
+                 VCP1_mmxh_dgt		2013.25;
+                 SW2_mmxh_dgt		2012.21;
+                 VCP2_mmxh_dgt		2014.23;
+                 AINT_mmxh_dgt		2015.26;
+                 GND_mmxh_dgt		2012.18;
+               }
+               Resource AT.Mixed.mmxh_tmu
+               {
+                 VINB1_mmxh_tmu		2012.19;
+                 VINB2_mmxh_tmu		2013.26;
+                 VINB3_mmxh_tmu		2012.23;
+                 LXB1_mmxh_tmu		2013.27;
+                 VDD1_mmxh_tmu		2014.21;
+                 LXB2_mmxh_tmu		2013.30;
+                 VDD2_mmxh_tmu		2015.31;
+                 LXB3_mmxh_tmu		2013.29;
+                 VDD3_mmxh_tmu		2014.19;
+                 VDD3E_mmxh_tmu		2015.29;
+                 VIN_mmxh_tmu		2012.22;
+                 SCL_mmxh_tmu		2014.22;
+                 EN1_mmxh_tmu		2012.20;
+                 EN2_mmxh_tmu		2014.24;
+                 VBIAS_mmxh_tmu		2015.27;
+                 VREF_mmxh_tmu		2015.32;
+                 TP1_mmxh_tmu		2014.20;
+                 TP2_mmxh_tmu		2015.25;
+                 LX_mmxh_tmu		2013.32;
+                 PAVDD2SNS_mmxh_tmu		2012.17;
+                 PAVDD2_mmxh_tmu		2013.31;
+                 AVDD_mmxh_tmu		2013.28;
+                 VGH_mmxh_tmu		2014.18;
+                 VGL_mmxh_tmu		2015.28;
+                 VINT_mmxh_tmu		2015.30;
+                 SW1_mmxh_tmu		2012.24;
+                 VCP1_mmxh_tmu		2013.25;
+                 SW2_mmxh_tmu		2012.21;
+                 VCP2_mmxh_tmu		2014.23;
+                 AINT_mmxh_tmu		2015.26;
+                 GND_mmxh_tmu		2012.18;
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+                 VINB1_mmxh_awg		2012.19;
+                 VINB2_mmxh_awg		2013.26;
+                 VINB3_mmxh_awg		2012.23;
+                 LXB1_mmxh_awg		2013.27;
+                 VDD1_mmxh_awg		2014.21;
+                 LXB2_mmxh_awg		2013.30;
+                 VDD2_mmxh_awg		2015.31;
+                 LXB3_mmxh_awg		2013.29;
+                 VDD3_mmxh_awg		2014.19;
+                 VDD3E_mmxh_awg		2015.29;
+                 VIN_mmxh_awg		2012.22;
+                 SCL_mmxh_awg		2014.22;
+                 EN1_mmxh_awg		2012.20;
+                 EN2_mmxh_awg		2014.24;
+                 VBIAS_mmxh_awg		2015.27;
+                 VREF_mmxh_awg		2015.32;
+                 TP1_mmxh_awg		2014.20;
+                 TP2_mmxh_awg		2015.25;
+                 LX_mmxh_awg		2013.32;
+                 PAVDD2SNS_mmxh_awg		2012.17;
+                 PAVDD2_mmxh_awg		2013.31;
+                 AVDD_mmxh_awg		2013.28;
+                 VGH_mmxh_awg		2014.18;
+                 VGL_mmxh_awg		2015.28;
+                 VINT_mmxh_awg		2015.30;
+                 SW1_mmxh_awg		2012.24;
+                 VCP1_mmxh_awg		2013.25;
+                 SW2_mmxh_awg		2012.21;
+                 VCP2_mmxh_awg		2014.23;
+                 AINT_mmxh_awg		2015.26;
+                 GND_mmxh_awg		2012.18;
+               }
+               Resource AT.Analog.gvi64_pmu
+               {
+                 SDA_gvi64_pmu		6017.13;
+                 EXVPP_gvi64_pmu		6017.8;
+                 ELVSS_gvi64_pmu		6018.20;
+                 PAVDDR_gvi64_pmu		6018.17;
+                 PAVDDG_gvi64_pmu		6018.18;
+                 ELVDD_gvi64_pmu		6017.9;
+                 VGMA_H_gvi64_pmu		6018.28;
+                 VGMA_L_gvi64_pmu		6018.26;
+                 PAVDD2ANA_gvi64_pmu		6017.3;
+                 AVDDSNS_gvi64_pmu		6017.6;
+                 AVDDLPF_gvi64_pmu		6017.4;
+                 CP1_gvi64_pmu		6017.2;
+                 VINC_gvi64_pmu		6018.19;
+                 CP2_gvi64_pmu		6017.5;
+                 GPIO1_gvi64_pmu		6018.25;
+                 GPIO2_gvi64_pmu		6018.27;
+                 NCGD_gvi64_pmu		6017.11;
+                 AMPVDD_gvi64_pmu		6017.12;
+                 AMPVREF_gvi64_pmu		6017.1;
+               }
+               Resource AT.Analog.gvi64_dgt
+               {
+                 SDA_gvi64_dgt		6017.13;
+                 EXVPP_gvi64_dgt		6017.8;
+                 ELVSS_gvi64_dgt		6018.20;
+                 PAVDDR_gvi64_dgt		6018.17;
+                 PAVDDG_gvi64_dgt		6018.18;
+                 ELVDD_gvi64_dgt		6017.9;
+                 VGMA_H_gvi64_dgt		6018.28;
+                 VGMA_L_gvi64_dgt		6018.26;
+                 PAVDD2ANA_gvi64_dgt		6017.3;
+                 AVDDSNS_gvi64_dgt		6017.6;
+                 AVDDLPF_gvi64_dgt		6017.4;
+                 CP1_gvi64_dgt		6017.2;
+                 VINC_gvi64_dgt		6018.19;
+                 CP2_gvi64_dgt		6017.5;
+                 GPIO1_gvi64_dgt		6018.25;
+                 GPIO2_gvi64_dgt		6018.27;
+                 NCGD_gvi64_dgt		6017.11;
+                 AMPVDD_gvi64_dgt		6017.12;
+                 AMPVREF_gvi64_dgt		6017.1;
+               }
+               Resource AT.Mixed.gvi64_tmu
+               {
+                 SDA_gvi64_tmu		6017.13;
+                 EXVPP_gvi64_tmu		6017.8;
+                 ELVSS_gvi64_tmu		6018.20;
+                 PAVDDR_gvi64_tmu		6018.17;
+                 PAVDDG_gvi64_tmu		6018.18;
+                 ELVDD_gvi64_tmu		6017.9;
+                 VGMA_H_gvi64_tmu		6018.28;
+                 VGMA_L_gvi64_tmu		6018.26;
+                 PAVDD2ANA_gvi64_tmu		6017.3;
+                 AVDDSNS_gvi64_tmu		6017.6;
+                 AVDDLPF_gvi64_tmu		6017.4;
+                 CP1_gvi64_tmu		6017.2;
+                 VINC_gvi64_tmu		6018.19;
+                 CP2_gvi64_tmu		6017.5;
+                 GPIO1_gvi64_tmu		6018.25;
+                 GPIO2_gvi64_tmu		6018.27;
+                 NCGD_gvi64_tmu		6017.11;
+                 AMPVDD_gvi64_tmu		6017.12;
+                 AMPVREF_gvi64_tmu		6017.1;
+               }
+               Resource AT.Analog.gvi64_awg
+               {
+                 SDA_gvi64_awg		6017.13;
+                 EXVPP_gvi64_awg		6017.8;
+                 ELVSS_gvi64_awg		6018.20;
+                 PAVDDR_gvi64_awg		6018.17;
+                 PAVDDG_gvi64_awg		6018.18;
+                 ELVDD_gvi64_awg		6017.9;
+                 VGMA_H_gvi64_awg		6018.28;
+                 VGMA_L_gvi64_awg		6018.26;
+                 PAVDD2ANA_gvi64_awg		6017.3;
+                 AVDDSNS_gvi64_awg		6017.6;
+                 AVDDLPF_gvi64_awg		6017.4;
+                 CP1_gvi64_awg		6017.2;
+                 VINC_gvi64_awg		6018.19;
+                 CP2_gvi64_awg		6017.5;
+                 GPIO1_gvi64_awg		6018.25;
+                 GPIO2_gvi64_awg		6018.27;
+                 NCGD_gvi64_awg		6017.11;
+                 AMPVDD_gvi64_awg		6017.12;
+                 AMPVREF_gvi64_awg		6017.1;
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+                 VINB_mfhp_pmu		1006.3;
+                 LXB_mfhp_pmu		1005.4;
+                 LX_mfhp_pmu		1006.1;
+                 PAVDD2_mfhp_pmu	1006.2;
+                 PAVDDN1_mfhp_pmu	1005.5;
+                 HVIN_mfhp_pmu		1005.6;
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+                 VINB_mfhp_dgt		1006.3;
+                 LXB_mfhp_dgt		1005.4;
+                 LX_mfhp_dgt		1006.1;
+                 PAVDD2_mfhp_dgt	1006.2;
+                 PAVDDN1_mfhp_dgt	1005.5;
+                 HVIN_mfhp_dgt		1005.6;
+               }
+               Resource AT.Analog.mmxh_diffvm
+               {
+                 D1_mmxh_dvm		1012.1001;
+               }
+               Resource AT.Utility.cw
+               {
+                 SP_SW1		2020.105;
+                 SP_SW2		1020.1;
+                 SW0		1020.11;
+                 SW2		1020.15;
+                 SW4		1020.7;
+                 SW6		1020.6;
+                 SW7		1020.3;
+                 SW9		1020.2;
+                 SW10		1020.10;
+                 SW12		1020.13;
+                 SW13		1020.14;
+                 SW15		2020.113;
+                 SW25		2020.114;
+                 SW27		1020.5;
+                 SW28		2020.122;
+                 SW30		1020.12;
+                 SW33		1020.16;
+                 SW35		2020.115;
+                 SW39		1020.4;
+                 SW45		2020.121;
+                 SW60		1020.8;
+                 SW61		1020.9;
+                 SW63		1020.32;
+                 SW70		2020.97;
+                 SW71		2020.98;
+                 SW72		1020.17;
+                 SW73		1020.25;
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin		1020.99999;
+               }
+          }
+          ######################################################################
+          ############################    SITE 3     #########################
+          ######################################################################
+          DUT 3
+          {
+               SiteController 1;
+               Resource AT.Digital.dpin
+               {
+                 VINB1_mmxh_dcl		4012.3;
+                 VINB2_mmxh_dcl		4013.10;
+                 VINB3_mmxh_dcl		4012.7;
+                 LXB1_mmxh_dcl		4013.11;
+                 VDD1_mmxh_dcl		4014.5;
+                 LXB2_mmxh_dcl		4013.14;
+                 VDD2_mmxh_dcl		4015.15;
+                 LXB3_mmxh_dcl		4013.13;
+                 VDD3_mmxh_dcl		4014.3;
+                 VDD3E_mmxh_dcl		4015.13;
+                 VIN_mmxh_dcl		4012.6;
+                 SCL_mmxh_dcl		4014.6;
+                 SCL_mdm		4016.6;
+                 SDA_mdm		4016.5;
+                 EN1_mdm		4016.1;
+                 EN1_mmxh_dcl		4012.4;
+                 EN2_mdm		4016.2;
+                 EN2_mmxh_dcl		4014.8;
+                 VBIAS_mmxh_dcl		4015.11;
+                 VREF_mmxh_dcl		4015.16;
+                 TP1_mmxh_dcl		4014.4;
+                 TP2_mmxh_dcl		4015.9;
+                 LX_mmxh_dcl		4013.16;
+                 PAVDD2SNS_mmxh_dcl		4012.1;
+                 PAVDD2_mmxh_dcl		4013.15;
+                 AVDD_mmxh_dcl		4013.12;
+                 VGH_mmxh_dcl		4014.2;
+                 VGL_mmxh_dcl		4015.12;
+                 VINT_mmxh_dcl		4015.14;
+                 SW1_mmxh_dcl		4012.8;
+                 VCP1_mmxh_dcl		4013.9;
+                 SW2_mmxh_dcl		4012.5;
+                 VCP2_mmxh_dcl		4014.7;
+                 AINT_mmxh_dcl		4015.10;
+                 GPIO1_mdm		4016.4;
+                 GPIO2_mdm		4016.3;
+                 GND_mmxh_dcl		4012.2;
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+                 VINB1_mmxh_pmu		4012.3;
+                 VINB2_mmxh_pmu		4013.10;
+                 VINB3_mmxh_pmu		4012.7;
+                 LXB1_mmxh_pmu		4013.11;
+                 VDD1_mmxh_pmu		4014.5;
+                 LXB2_mmxh_pmu		4013.14;
+                 VDD2_mmxh_pmu		4015.15;
+                 LXB3_mmxh_pmu		4013.13;
+                 VDD3_mmxh_pmu		4014.3;
+                 VDD3E_mmxh_pmu		4015.13;
+                 VIN_mmxh_pmu		4012.6;
+                 SCL_mmxh_pmu		4014.6;
+                 EN1_mmxh_pmu		4012.4;
+                 EN2_mmxh_pmu		4014.8;
+                 VBIAS_mmxh_pmu		4015.11;
+                 VREF_mmxh_pmu		4015.16;
+                 TP1_mmxh_pmu		4014.4;
+                 TP2_mmxh_pmu		4015.9;
+                 LX_mmxh_pmu		4013.16;
+                 PAVDD2SNS_mmxh_pmu		4012.1;
+                 PAVDD2_mmxh_pmu		4013.15;
+                 AVDD_mmxh_pmu		4013.12;
+                 VGH_mmxh_pmu		4014.2;
+                 VGL_mmxh_pmu		4015.12;
+                 VINT_mmxh_pmu		4015.14;
+                 SW1_mmxh_pmu		4012.8;
+                 VCP1_mmxh_pmu		4013.9;
+                 SW2_mmxh_pmu		4012.5;
+                 VCP2_mmxh_pmu		4014.7;
+                 AINT_mmxh_pmu		4015.10;
+                 GND_mmxh_pmu		4012.2;
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+                 VINB1_mmxh_dgt		4012.3;
+                 VINB2_mmxh_dgt		4013.10;
+                 VINB3_mmxh_dgt		4012.7;
+                 LXB1_mmxh_dgt		4013.11;
+                 VDD1_mmxh_dgt		4014.5;
+                 LXB2_mmxh_dgt		4013.14;
+                 VDD2_mmxh_dgt		4015.15;
+                 LXB3_mmxh_dgt		4013.13;
+                 VDD3_mmxh_dgt		4014.3;
+                 VDD3E_mmxh_dgt		4015.13;
+                 VIN_mmxh_dgt		4012.6;
+                 SCL_mmxh_dgt		4014.6;
+                 EN1_mmxh_dgt		4012.4;
+                 EN2_mmxh_dgt		4014.8;
+                 VBIAS_mmxh_dgt		4015.11;
+                 VREF_mmxh_dgt		4015.16;
+                 TP1_mmxh_dgt		4014.4;
+                 TP2_mmxh_dgt		4015.9;
+                 LX_mmxh_dgt		4013.16;
+                 PAVDD2SNS_mmxh_dgt		4012.1;
+                 PAVDD2_mmxh_dgt		4013.15;
+                 AVDD_mmxh_dgt		4013.12;
+                 VGH_mmxh_dgt		4014.2;
+                 VGL_mmxh_dgt		4015.12;
+                 VINT_mmxh_dgt		4015.14;
+                 SW1_mmxh_dgt		4012.8;
+                 VCP1_mmxh_dgt		4013.9;
+                 SW2_mmxh_dgt		4012.5;
+                 VCP2_mmxh_dgt		4014.7;
+                 AINT_mmxh_dgt		4015.10;
+                 GND_mmxh_dgt		4012.2;
+               }
+               Resource AT.Mixed.mmxh_tmu
+               {
+                 VINB1_mmxh_tmu		4012.3;
+                 VINB2_mmxh_tmu		4013.10;
+                 VINB3_mmxh_tmu		4012.7;
+                 LXB1_mmxh_tmu		4013.11;
+                 VDD1_mmxh_tmu		4014.5;
+                 LXB2_mmxh_tmu		4013.14;
+                 VDD2_mmxh_tmu		4015.15;
+                 LXB3_mmxh_tmu		4013.13;
+                 VDD3_mmxh_tmu		4014.3;
+                 VDD3E_mmxh_tmu		4015.13;
+                 VIN_mmxh_tmu		4012.6;
+                 SCL_mmxh_tmu		4014.6;
+                 EN1_mmxh_tmu		4012.4;
+                 EN2_mmxh_tmu		4014.8;
+                 VBIAS_mmxh_tmu		4015.11;
+                 VREF_mmxh_tmu		4015.16;
+                 TP1_mmxh_tmu		4014.4;
+                 TP2_mmxh_tmu		4015.9;
+                 LX_mmxh_tmu		4013.16;
+                 PAVDD2SNS_mmxh_tmu		4012.1;
+                 PAVDD2_mmxh_tmu		4013.15;
+                 AVDD_mmxh_tmu		4013.12;
+                 VGH_mmxh_tmu		4014.2;
+                 VGL_mmxh_tmu		4015.12;
+                 VINT_mmxh_tmu		4015.14;
+                 SW1_mmxh_tmu		4012.8;
+                 VCP1_mmxh_tmu		4013.9;
+                 SW2_mmxh_tmu		4012.5;
+                 VCP2_mmxh_tmu		4014.7;
+                 AINT_mmxh_tmu		4015.10;
+                 GND_mmxh_tmu		4012.2;
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+                 VINB1_mmxh_awg		4012.3;
+                 VINB2_mmxh_awg		4013.10;
+                 VINB3_mmxh_awg		4012.7;
+                 LXB1_mmxh_awg		4013.11;
+                 VDD1_mmxh_awg		4014.5;
+                 LXB2_mmxh_awg		4013.14;
+                 VDD2_mmxh_awg		4015.15;
+                 LXB3_mmxh_awg		4013.13;
+                 VDD3_mmxh_awg		4014.3;
+                 VDD3E_mmxh_awg		4015.13;
+                 VIN_mmxh_awg		4012.6;
+                 SCL_mmxh_awg		4014.6;
+                 EN1_mmxh_awg		4012.4;
+                 EN2_mmxh_awg		4014.8;
+                 VBIAS_mmxh_awg		4015.11;
+                 VREF_mmxh_awg		4015.16;
+                 TP1_mmxh_awg		4014.4;
+                 TP2_mmxh_awg		4015.9;
+                 LX_mmxh_awg		4013.16;
+                 PAVDD2SNS_mmxh_awg		4012.1;
+                 PAVDD2_mmxh_awg		4013.15;
+                 AVDD_mmxh_awg		4013.12;
+                 VGH_mmxh_awg		4014.2;
+                 VGL_mmxh_awg		4015.12;
+                 VINT_mmxh_awg		4015.14;
+                 SW1_mmxh_awg		4012.8;
+                 VCP1_mmxh_awg		4013.9;
+                 SW2_mmxh_awg		4012.5;
+                 VCP2_mmxh_awg		4014.7;
+                 AINT_mmxh_awg		4015.10;
+                 GND_mmxh_awg		4012.2;
+               }
+               Resource AT.Analog.gvi64_pmu
+               {
+                 SDA_gvi64_pmu		8017.45;
+                 EXVPP_gvi64_pmu		8018.51;
+                 ELVSS_gvi64_pmu		8018.52;
+                 PAVDDR_gvi64_pmu		8018.49;
+                 PAVDDG_gvi64_pmu		8018.50;
+                 ELVDD_gvi64_pmu		8017.41;
+                 VGMA_H_gvi64_pmu		8018.60;
+                 VGMA_L_gvi64_pmu		8018.58;
+                 PAVDD2ANA_gvi64_pmu		8017.35;
+                 AVDDSNS_gvi64_pmu		8017.38;
+                 AVDDLPF_gvi64_pmu		8017.36;
+                 CP1_gvi64_pmu		8017.34;
+                 VINC_gvi64_pmu		8017.40;
+                 CP2_gvi64_pmu		8017.37;
+                 GPIO1_gvi64_pmu		8018.57;
+                 GPIO2_gvi64_pmu		8017.43;
+                 NCGD_gvi64_pmu		8018.59;
+                 AMPVDD_gvi64_pmu		8017.44;
+                 AMPVREF_gvi64_pmu		8017.33;
+               }
+               Resource AT.Analog.gvi64_dgt
+               {
+                 SDA_gvi64_dgt		8017.45;
+                 EXVPP_gvi64_dgt		8018.51;
+                 ELVSS_gvi64_dgt		8018.52;
+                 PAVDDR_gvi64_dgt		8018.49;
+                 PAVDDG_gvi64_dgt		8018.50;
+                 ELVDD_gvi64_dgt		8017.41;
+                 VGMA_H_gvi64_dgt		8018.60;
+                 VGMA_L_gvi64_dgt		8018.58;
+                 PAVDD2ANA_gvi64_dgt		8017.35;
+                 AVDDSNS_gvi64_dgt		8017.38;
+                 AVDDLPF_gvi64_dgt		8017.36;
+                 CP1_gvi64_dgt		8017.34;
+                 VINC_gvi64_dgt		8017.40;
+                 CP2_gvi64_dgt		8017.37;
+                 GPIO1_gvi64_dgt		8018.57;
+                 GPIO2_gvi64_dgt		8017.43;
+                 NCGD_gvi64_dgt		8018.59;
+                 AMPVDD_gvi64_dgt		8017.44;
+                 AMPVREF_gvi64_dgt		8017.33;
+               }
+               Resource AT.Mixed.gvi64_tmu
+               {
+                 SDA_gvi64_tmu		8017.45;
+                 EXVPP_gvi64_tmu		8018.51;
+                 ELVSS_gvi64_tmu		8018.52;
+                 PAVDDR_gvi64_tmu		8018.49;
+                 PAVDDG_gvi64_tmu		8018.50;
+                 ELVDD_gvi64_tmu		8017.41;
+                 VGMA_H_gvi64_tmu		8018.60;
+                 VGMA_L_gvi64_tmu		8018.58;
+                 PAVDD2ANA_gvi64_tmu		8017.35;
+                 AVDDSNS_gvi64_tmu		8017.38;
+                 AVDDLPF_gvi64_tmu		8017.36;
+                 CP1_gvi64_tmu		8017.34;
+                 VINC_gvi64_tmu		8017.40;
+                 CP2_gvi64_tmu		8017.37;
+                 GPIO1_gvi64_tmu		8018.57;
+                 GPIO2_gvi64_tmu		8017.43;
+                 NCGD_gvi64_tmu		8018.59;
+                 AMPVDD_gvi64_tmu		8017.44;
+                 AMPVREF_gvi64_tmu		8017.33;
+               }
+               Resource AT.Analog.gvi64_awg
+               {
+                 SDA_gvi64_awg		8017.45;
+                 EXVPP_gvi64_awg		8018.51;
+                 ELVSS_gvi64_awg		8018.52;
+                 PAVDDR_gvi64_awg		8018.49;
+                 PAVDDG_gvi64_awg		8018.50;
+                 ELVDD_gvi64_awg		8017.41;
+                 VGMA_H_gvi64_awg		8018.60;
+                 VGMA_L_gvi64_awg		8018.58;
+                 PAVDD2ANA_gvi64_awg		8017.35;
+                 AVDDSNS_gvi64_awg		8017.38;
+                 AVDDLPF_gvi64_awg		8017.36;
+                 CP1_gvi64_awg		8017.34;
+                 VINC_gvi64_awg		8017.40;
+                 CP2_gvi64_awg		8017.37;
+                 GPIO1_gvi64_awg		8018.57;
+                 GPIO2_gvi64_awg		8017.43;
+                 NCGD_gvi64_awg		8018.59;
+                 AMPVDD_gvi64_awg		8017.44;
+                 AMPVREF_gvi64_awg		8017.33;
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+                 VINB_mfhp_pmu		4005.1;
+                 LXB_mfhp_pmu		4005.2;
+                 LX_mfhp_pmu		4004.5;
+                 PAVDD2_mfhp_pmu		4004.6;
+                 PAVDDN1_mfhp_pmu		4005.3;
+                 HVIN_mfhp_pmu		4004.4;
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+                 VINB_mfhp_dgt		4005.1;
+                 LXB_mfhp_dgt		4005.2;
+                 LX_mfhp_dgt		4004.5;
+                 PAVDD2_mfhp_dgt		4004.6;
+                 PAVDDN1_mfhp_dgt		4005.3;
+                 HVIN_mfhp_dgt		4004.4;
+               }
+               Resource AT.Analog.mmxh_diffvm
+               {
+                 D1_mmxh_dvm		4012.1000;
+               }
+               Resource AT.Utility.cw
+               {
+                 SP_SW1		3020.80;
+                 SP_SW2		4020.40;
+                 SW0		4020.45;
+                 SW2		4020.41;
+                 SW4		4020.34;
+                 SW6		4020.35;
+                 SW7		4020.38;
+                 SW9		4020.39;
+                 SW10		4020.46;
+                 SW12		4020.43;
+                 SW13		4020.42;
+                 SW15		3020.88;
+                 SW25		3020.87;
+                 SW27		4020.36;
+                 SW28		3020.94;
+                 SW30		4020.44;
+                 SW33		4020.49;
+                 SW35		3020.86;
+                 SW39		4020.37;
+                 SW45		3020.95;
+                 SW60		4020.33;
+                 SW61		4020.47;
+                 SW63		3020.65;
+                 SW70		4020.63;
+                 SW71		3020.79;
+                 SW72		3020.72;
+                 SW73		4020.56;
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin		1020.99999;
+               }
+          }
+          ######################################################################
+          ############################    SITE 4     #########################
+          ######################################################################
+          DUT 4
+          {
+               SiteController 1;
+               Resource AT.Digital.dpin
+               {
+                 VINB1_mmxh_dcl		3013.27;
+                 VINB2_mmxh_dcl		3012.18;
+                 VINB3_mmxh_dcl		3013.31;
+                 LXB1_mmxh_dcl		3012.19;
+                 VDD1_mmxh_dcl		3015.29;
+                 LXB2_mmxh_dcl		3012.22;
+                 VDD2_mmxh_dcl		3014.23;
+                 LXB3_mmxh_dcl		3012.21;
+                 VDD3_mmxh_dcl		3014.17;
+                 VDD3E_mmxh_dcl		3014.21;
+                 VIN_mmxh_dcl		3013.30;
+                 SCL_mmxh_dcl		3015.30;
+                 SCL_mdm		3016.70;
+                 SDA_mdm		3016.69;
+                 EN1_mdm		3016.65;
+                 EN1_mmxh_dcl		3013.28;
+                 EN2_mdm		3016.66;
+                 EN2_mmxh_dcl		3015.32;
+                 VBIAS_mmxh_dcl		3014.19;
+                 VREF_mmxh_dcl		3014.24;
+                 TP1_mmxh_dcl		3015.28;
+                 TP2_mmxh_dcl		3015.27;
+                 LX_mmxh_dcl		3012.24;
+                 PAVDD2SNS_mmxh_dcl		3012.17;
+                 PAVDD2_mmxh_dcl		3012.23;
+                 AVDD_mmxh_dcl		3012.20;
+                 VGH_mmxh_dcl		3015.26;
+                 VGL_mmxh_dcl		3014.20;
+                 VINT_mmxh_dcl		3014.22;
+                 SW1_mmxh_dcl		3013.32;
+                 VCP1_mmxh_dcl		3013.25;
+                 SW2_mmxh_dcl		3013.29;
+                 VCP2_mmxh_dcl		3015.31;
+                 AINT_mmxh_dcl		3014.18;
+                 GPIO1_mdm		3016.68;
+                 GPIO2_mdm		3016.67;
+                 GND_mmxh_dcl		3013.26;
+               }
+               Resource AT.Analog.mmxh_pmu
+               {
+                 VINB1_mmxh_pmu		3013.27;
+                 VINB2_mmxh_pmu		3012.18;
+                 VINB3_mmxh_pmu		3013.31;
+                 LXB1_mmxh_pmu		3012.19;
+                 VDD1_mmxh_pmu		3015.29;
+                 LXB2_mmxh_pmu		3012.22;
+                 VDD2_mmxh_pmu		3014.23;
+                 LXB3_mmxh_pmu		3012.21;
+                 VDD3_mmxh_pmu		3014.17;
+                 VDD3E_mmxh_pmu		3014.21;
+                 VIN_mmxh_pmu		3013.30;
+                 SCL_mmxh_pmu		3015.30;
+                 EN1_mmxh_pmu		3013.28;
+                 EN2_mmxh_pmu		3015.32;
+                 VBIAS_mmxh_pmu		3014.19;
+                 VREF_mmxh_pmu		3014.24;
+                 TP1_mmxh_pmu		3015.28;
+                 TP2_mmxh_pmu		3015.27;
+                 LX_mmxh_pmu		3012.24;
+                 PAVDD2SNS_mmxh_pmu		3012.17;
+                 PAVDD2_mmxh_pmu		3012.23;
+                 AVDD_mmxh_pmu		3012.20;
+                 VGH_mmxh_pmu		3015.26;
+                 VGL_mmxh_pmu		3014.20;
+                 VINT_mmxh_pmu		3014.22;
+                 SW1_mmxh_pmu		3013.32;
+                 VCP1_mmxh_pmu		3013.25;
+                 SW2_mmxh_pmu		3013.29;
+                 VCP2_mmxh_pmu		3015.31;
+                 AINT_mmxh_pmu		3014.18;
+                 GND_mmxh_pmu		3013.26;
+               }
+               Resource AT.Analog.mmxh_dgt
+               {
+                 VINB1_mmxh_dgt		3013.27;
+                 VINB2_mmxh_dgt		3012.18;
+                 VINB3_mmxh_dgt		3013.31;
+                 LXB1_mmxh_dgt		3012.19;
+                 VDD1_mmxh_dgt		3015.29;
+                 LXB2_mmxh_dgt		3012.22;
+                 VDD2_mmxh_dgt		3014.23;
+                 LXB3_mmxh_dgt		3012.21;
+                 VDD3_mmxh_dgt		3014.17;
+                 VDD3E_mmxh_dgt		3014.21;
+                 VIN_mmxh_dgt		3013.30;
+                 SCL_mmxh_dgt		3015.30;
+                 EN1_mmxh_dgt		3013.28;
+                 EN2_mmxh_dgt		3015.32;
+                 VBIAS_mmxh_dgt		3014.19;
+                 VREF_mmxh_dgt		3014.24;
+                 TP1_mmxh_dgt		3015.28;
+                 TP2_mmxh_dgt		3015.27;
+                 LX_mmxh_dgt		3012.24;
+                 PAVDD2SNS_mmxh_dgt		3012.17;
+                 PAVDD2_mmxh_dgt		3012.23;
+                 AVDD_mmxh_dgt		3012.20;
+                 VGH_mmxh_dgt		3015.26;
+                 VGL_mmxh_dgt		3014.20;
+                 VINT_mmxh_dgt		3014.22;
+                 SW1_mmxh_dgt		3013.32;
+                 VCP1_mmxh_dgt		3013.25;
+                 SW2_mmxh_dgt		3013.29;
+                 VCP2_mmxh_dgt		3015.31;
+                 AINT_mmxh_dgt		3014.18;
+                 GND_mmxh_dgt		3013.26;
+               }
+               Resource AT.Mixed.mmxh_tmu
+               {
+                 VINB1_mmxh_tmu		3013.27;
+                 VINB2_mmxh_tmu		3012.18;
+                 VINB3_mmxh_tmu		3013.31;
+                 LXB1_mmxh_tmu		3012.19;
+                 VDD1_mmxh_tmu		3015.29;
+                 LXB2_mmxh_tmu		3012.22;
+                 VDD2_mmxh_tmu		3014.23;
+                 LXB3_mmxh_tmu		3012.21;
+                 VDD3_mmxh_tmu		3014.17;
+                 VDD3E_mmxh_tmu		3014.21;
+                 VIN_mmxh_tmu		3013.30;
+                 SCL_mmxh_tmu		3015.30;
+                 EN1_mmxh_tmu		3013.28;
+                 EN2_mmxh_tmu		3015.32;
+                 VBIAS_mmxh_tmu		3014.19;
+                 VREF_mmxh_tmu		3014.24;
+                 TP1_mmxh_tmu		3015.28;
+                 TP2_mmxh_tmu		3015.27;
+                 LX_mmxh_tmu		3012.24;
+                 PAVDD2SNS_mmxh_tmu		3012.17;
+                 PAVDD2_mmxh_tmu		3012.23;
+                 AVDD_mmxh_tmu		3012.20;
+                 VGH_mmxh_tmu		3015.26;
+                 VGL_mmxh_tmu		3014.20;
+                 VINT_mmxh_tmu		3014.22;
+                 SW1_mmxh_tmu		3013.32;
+                 VCP1_mmxh_tmu		3013.25;
+                 SW2_mmxh_tmu		3013.29;
+                 VCP2_mmxh_tmu		3015.31;
+                 AINT_mmxh_tmu		3014.18;
+                 GND_mmxh_tmu		3013.26;
+               }
+               Resource AT.Analog.mmxh_awg
+               {
+                 VINB1_mmxh_awg		3013.27;
+                 VINB2_mmxh_awg		3012.18;
+                 VINB3_mmxh_awg		3013.31;
+                 LXB1_mmxh_awg		3012.19;
+                 VDD1_mmxh_awg		3015.29;
+                 LXB2_mmxh_awg		3012.22;
+                 VDD2_mmxh_awg		3014.23;
+                 LXB3_mmxh_awg		3012.21;
+                 VDD3_mmxh_awg		3014.17;
+                 VDD3E_mmxh_awg		3014.21;
+                 VIN_mmxh_awg		3013.30;
+                 SCL_mmxh_awg		3015.30;
+                 EN1_mmxh_awg		3013.28;
+                 EN2_mmxh_awg		3015.32;
+                 VBIAS_mmxh_awg		3014.19;
+                 VREF_mmxh_awg		3014.24;
+                 TP1_mmxh_awg		3015.28;
+                 TP2_mmxh_awg		3015.27;
+                 LX_mmxh_awg		3012.24;
+                 PAVDD2SNS_mmxh_awg		3012.17;
+                 PAVDD2_mmxh_awg		3012.23;
+                 AVDD_mmxh_awg		3012.20;
+                 VGH_mmxh_awg		3015.26;
+                 VGL_mmxh_awg		3014.20;
+                 VINT_mmxh_awg		3014.22;
+                 SW1_mmxh_awg		3013.32;
+                 VCP1_mmxh_awg		3013.25;
+                 SW2_mmxh_awg		3013.29;
+                 VCP2_mmxh_awg		3015.31;
+                 AINT_mmxh_awg		3014.18;
+                 GND_mmxh_awg		3013.26;
+               }
+               Resource AT.Analog.gvi64_pmu
+               {
+                 SDA_gvi64_pmu		7017.13;
+                 EXVPP_gvi64_pmu		7018.19;
+                 ELVSS_gvi64_pmu		7017.12;
+                 PAVDDR_gvi64_pmu		7018.17;
+                 PAVDDG_gvi64_pmu		7018.18;
+                 ELVDD_gvi64_pmu		7017.9;
+                 VGMA_H_gvi64_pmu		7018.28;
+                 VGMA_L_gvi64_pmu		7018.26;
+                 PAVDD2ANA_gvi64_pmu		7017.3;
+                 AVDDSNS_gvi64_pmu		7017.6;
+                 AVDDLPF_gvi64_pmu		7017.4;
+                 CP1_gvi64_pmu		7017.2;
+                 VINC_gvi64_pmu		7017.8;
+                 CP2_gvi64_pmu		7017.5;
+                 GPIO1_gvi64_pmu		7018.25;
+                 GPIO2_gvi64_pmu		7018.27;
+                 NCGD_gvi64_pmu		7017.11;
+                 AMPVDD_gvi64_pmu		7018.20;
+                 AMPVREF_gvi64_pmu		7017.1;
+               }
+               Resource AT.Analog.gvi64_dgt
+               {
+                 SDA_gvi64_dgt		7017.13;
+                 EXVPP_gvi64_dgt		7018.19;
+                 ELVSS_gvi64_dgt		7017.12;
+                 PAVDDR_gvi64_dgt		7018.17;
+                 PAVDDG_gvi64_dgt		7018.18;
+                 ELVDD_gvi64_dgt		7017.9;
+                 VGMA_H_gvi64_dgt		7018.28;
+                 VGMA_L_gvi64_dgt		7018.26;
+                 PAVDD2ANA_gvi64_dgt		7017.3;
+                 AVDDSNS_gvi64_dgt		7017.6;
+                 AVDDLPF_gvi64_dgt		7017.4;
+                 CP1_gvi64_dgt		7017.2;
+                 VINC_gvi64_dgt		7017.8;
+                 CP2_gvi64_dgt		7017.5;
+                 GPIO1_gvi64_dgt		7018.25;
+                 GPIO2_gvi64_dgt		7018.27;
+                 NCGD_gvi64_dgt		7017.11;
+                 AMPVDD_gvi64_dgt		7018.20;
+                 AMPVREF_gvi64_dgt		7017.1;
+               }
+               Resource AT.Mixed.gvi64_tmu
+               {
+                 SDA_gvi64_tmu		7017.13;
+                 EXVPP_gvi64_tmu		7018.19;
+                 ELVSS_gvi64_tmu		7017.12;
+                 PAVDDR_gvi64_tmu		7018.17;
+                 PAVDDG_gvi64_tmu		7018.18;
+                 ELVDD_gvi64_tmu		7017.9;
+                 VGMA_H_gvi64_tmu		7018.28;
+                 VGMA_L_gvi64_tmu		7018.26;
+                 PAVDD2ANA_gvi64_tmu		7017.3;
+                 AVDDSNS_gvi64_tmu		7017.6;
+                 AVDDLPF_gvi64_tmu		7017.4;
+                 CP1_gvi64_tmu		7017.2;
+                 VINC_gvi64_tmu		7017.8;
+                 CP2_gvi64_tmu		7017.5;
+                 GPIO1_gvi64_tmu		7018.25;
+                 GPIO2_gvi64_tmu		7018.27;
+                 NCGD_gvi64_tmu		7017.11;
+                 AMPVDD_gvi64_tmu		7018.20;
+                 AMPVREF_gvi64_tmu		7017.1;
+               }
+               Resource AT.Analog.gvi64_awg
+               {
+                 SDA_gvi64_awg		7017.13;
+                 EXVPP_gvi64_awg		7018.19;
+                 ELVSS_gvi64_awg		7017.12;
+                 PAVDDR_gvi64_awg		7018.17;
+                 PAVDDG_gvi64_awg		7018.18;
+                 ELVDD_gvi64_awg		7017.9;
+                 VGMA_H_gvi64_awg		7018.28;
+                 VGMA_L_gvi64_awg		7018.26;
+                 PAVDD2ANA_gvi64_awg		7017.3;
+                 AVDDSNS_gvi64_awg		7017.6;
+                 AVDDLPF_gvi64_awg		7017.4;
+                 CP1_gvi64_awg		7017.2;
+                 VINC_gvi64_awg		7017.8;
+                 CP2_gvi64_awg		7017.5;
+                 GPIO1_gvi64_awg		7018.25;
+                 GPIO2_gvi64_awg		7018.27;
+                 NCGD_gvi64_awg		7017.11;
+                 AMPVDD_gvi64_awg		7018.20;
+                 AMPVREF_gvi64_awg		7017.1;
+               }
+               Resource AT.Analog.mfhp_pmu
+               {
+                 VINB_mfhp_pmu		4010.3;
+                 LXB_mfhp_pmu		3010.4;
+                 LX_mfhp_pmu		4010.1;
+                 PAVDD2_mfhp_pmu		4010.2;
+                 PAVDDN1_mfhp_pmu		3010.5;
+                 HVIN_mfhp_pmu		3010.6;
+               }
+               Resource AT.Analog.mfhp_dgt
+               {
+                 VINB_mfhp_dgt		4010.3;
+                 LXB_mfhp_dgt		3010.4;
+                 LX_mfhp_dgt		4010.1;
+                 PAVDD2_mfhp_dgt		4010.2;
+                 PAVDDN1_mfhp_dgt		3010.5;
+                 HVIN_mfhp_dgt		3010.6;
+               }
+               Resource AT.Analog.mmxh_diffvm
+               {
+                 D1_mmxh_dvm		4012.1001;
+               }
+               Resource AT.Utility.cw
+               {
+                 SP_SW1		4020.50;
+                 SP_SW2		4020.57;
+                 SW0		4020.53;
+                 SW2		3020.96;
+                 SW4		4020.64;
+                 SW6		3020.78;
+                 SW7		4020.60;
+                 SW9		4020.59;
+                 SW10		4020.52;
+                 SW12		4020.55;
+                 SW13		4020.48;
+                 SW15		3020.81;
+                 SW25		3020.82;
+                 SW27		4020.62;
+                 SW28		4020.51;
+                 SW30		4020.54;
+                 SW33		3020.77;
+                 SW35		4020.58;
+                 SW39		4020.61;
+                 SW45		3020.66;
+                 SW60		3020.70;
+                 SW61		3020.71;
+                 SW63		3020.93;
+                 SW70		3020.73;
+                 SW71		3020.89;
+                 SW72		3020.90;
+                 SW73		3020.91;
+               }
+               Resource AT.RelayControl.rc5v
+               {
+                 rc5v_pin		1020.99999;
+               }
+          }
+      }
+}
