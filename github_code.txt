@@ -1,0 +1,37 @@
+C:\Users\jyjeon_2\Desktop\PY>git init
+C:\Users\jyjeon_2\Desktop\PY>git add.
+C:\Users\jyjeon_2\Desktop\PY>git status
+C:\Users\jyjeon_2\Desktop\PY>git commit -m "first commit"
+C:\Users\jyjeon_2\Desktop\PY>git remote add origin https://github.com/DoubleJJ-Y/first-double-project
+C:\Users\jyjeon_2\Desktop\PY>git remote -v
+origin  https://github.com/DoubleJJ-Y/first-double-project.git (fetch)
+origin  https://github.com/DoubleJJ-Y/first-double-project.git (push)
+
+C:\Users\jyjeon_2\Desktop\PY>git push origin master
+
+C:\Users\jyjeon_2\Desktop\PY>git commit -m "third commit" 
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+
+C:\Users\jyjeon_2\Desktop\PY>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/DoubleJJ-Y/first-double-project.git'
+
+C:\Users\jyjeon_2\Desktop\PY>git push origin master
+error: src refspec master does not match any
+error: failed to push some refs to 'https://github.com/DoubleJJ-Y/first-double-project.git'
+
+C:\Users\jyjeon_2\Desktop\PY>git push -u origin +main
+Enumerating objects: 4, done.
+Counting objects: 100% (4/4), done.
+Delta compression using up to 16 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 5.44 MiB | 3.71 MiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/DoubleJJ-Y/first-double-project.git
+   801815a..58b2dc8  main -> main
+branch 'main' set up to track 'origin/main'.
